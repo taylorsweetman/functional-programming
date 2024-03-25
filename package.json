@@ -1,0 +1,19 @@
+{
+  "name": "functional-programming",
+  "type": "module",
+  "scripts": {
+    "1": "bun run 01-imperative-example.ts",
+    "2": "bun run 02-declarative-example.ts",
+    "3": "bun run 03-pipe-example.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/lodash": "^4.17.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
